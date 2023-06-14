@@ -24,9 +24,9 @@ describe('index.js', function () {
 
     describe('destructivelyPrependCat(name)', function () {
       it('prepends a cat to the beginning of the cats array', function () {
-        destructivelyPrependCat("Bob");
+        destructivelyPrependCat("Ben");
 
-        expect(cats).to.have.ordered.members(["Bob", "Milo", "Otis", "Garfield"]);
+        expect(cats).to.have.ordered.members(["Ben", "Milo", "Otis", "Garfield"]);
       });
     });
 
